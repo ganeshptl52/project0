@@ -23,7 +23,6 @@ a:visited
 .bg {
   /* The image used */
   background-image: url("15639107386296.jpg");
- 'backgroundRepeat': 'no-repeat',
-'backgroundPosition': 'top center'
+  background-Repeat:repeat-y;
 
 }
