@@ -5,28 +5,34 @@ color=red
 .top
  {
   font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 #champ
 {
 border-style: dotted;
+font-size: 50px
 }
 
-a:link
+#champ:hover
 {
-	color:red;
+  background-color: #54F56C
 }
-a:visited
-{
-	color: green;
-}
+
 .backimg {
   /* The image used */
   background-image: url("15639107386296.jpg");
   background-Repeat:no-repeat;
-  background-size: cover;
+  background-size:
+  cover;
 }
+p::selection{
+background-color: rgb(56, 187, 100)
+  }
 
-button:hover{
-  background-color: orange;
+.listtest ol>li {
+color:red;
+}
+.listtest ol>ul>li {
+color:green;
 }
